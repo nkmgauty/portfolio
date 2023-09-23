@@ -1,0 +1,108 @@
+.Aboutmain{
+    background-color: #151530;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+
+.aboutline{
+    height: 1px;
+    width: 60px;
+    background-color: yellow;
+    
+}
+
+.aboutcont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100vh;
+    width: 100%;
+
+    
+}
+
+.abouttextcont{
+    margin-top: 60px;
+    padding-left: 200px;
+    height: 100vh;
+}
+
+.abouttextcont h3{
+    padding-bottom: 30px;
+}
+
+.abouttextcont h1{
+    padding-bottom: 30px;
+
+}
+
+.abouttextcont p{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.imgabt{
+    display: flex;
+    object-fit: contain;
+    padding-top: 60px;
+    height: 60%;
+    width: 80%;
+}
+
+
+.abtgridcard{
+    background-color: #151530;
+    height: 100vh;
+    width: 100%;
+}
+
+.about-cardcontent{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3rem;
+    padding-top: 100px;
+    margin: 10px;
+}
+
+.cardimg-about img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+   /* align-items: center;
+   display: flex;
+   justify-content: center; */
+}
+
+ /* .card-position{
+     display: flex;
+    flex-direction: column; 
+    align-items: center;
+} */
+
+
+.Skills-content{
+    background-color: #151530;
+    height: 100%;
+    width: 100%;
+}
+
+.Skill-main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Skill-main-content ul{
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    grid-gap: 40px;
+    margin: 30px;
+    
+   
+    
+}
+
+.Skill-main-content ul li{
+    padding: 30px 0px;
+}

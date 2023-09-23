@@ -1,0 +1,40 @@
+.blogmain{
+    background-color: #12122a;
+    height: 100vh;
+    width:100%;
+
+}
+
+
+.bloghead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+
+.bloggrid{
+    background-color: #151530;
+    height: 100%;
+    width: 100%;
+}
+
+
+.blogImggrid{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    padding-left: 200px;
+    grid-gap: 10px;
+    padding-top: 30px;
+}
+
+.bloggridimg{
+    height: 200px;
+    width: 250px;
+}
+
+
+.bloggridcont{
+    padding-bottom: 30px;
+}

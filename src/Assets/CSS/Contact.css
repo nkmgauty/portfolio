@@ -1,0 +1,72 @@
+.contact-line{
+    height: 1px;
+    background-color: yellow;
+    width: 30px;
+    
+}
+
+.contact-line-position{
+    padding: 30px 0px;
+}
+
+.contact-first-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    background-color: #151530;
+    height: 600px;
+}
+
+
+.contact-content{
+    color: white;
+    padding: 30px 200px;
+
+}
+
+.contact-content h3{
+    padding: 40px 0px;
+}
+
+/* input box */
+
+.inputbox{
+padding: 30px;
+
+
+
+}
+
+.inp1{
+    background-color: grey;
+    color: white;
+    padding: 10px 50px;
+
+}
+
+.inp1::placeholder{
+   
+    color: white;
+   
+
+}
+
+.contactcont{
+    padding: 50px 20px;
+}
+
+.contactcont h2{
+    padding: 0px 30px;
+}
+
+/* map */
+
+.map{
+    background-color: #151530;
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding: 40px 0px;
+    justify-content: center;
+}
+
